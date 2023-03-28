@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.navbar{
+  background-color: rgba(91, 0, 23, 0.98);;
+}
+
+
+
+
+.navbar-nav li a{
+  font-size: 17px;
+}
+
+
+.navbar-nav li a:hover{
+  font-size: 17px;
+  background-color: #f0e2e2;
+  transition: all 0.5s ease;
+}
+
+
+
+
+.navbar-brand{
+  letter-spacing: 1px;
+  color: #f0e2e2;
+
+}
+
+
+.card{
+  transition: all 0.5s ease;
+}
+
+
+.card:hover{
+  transform: scale(0.9);
+  box-shadow: 10px 10px 10px 10PX rgba(0, 0, 0, 0.5);
+  border-radius: 6%;
+}
+
+.container .col-md-6{
+  margin-top: 30px;
+  border-radius: 30%;
+}
+
+
+.container .col-md-6 img{
+  
+  border-radius: 50%;
+}
+
+.container btn{
+  width: 70%;
+  border-radius: 30px;
+}
+
+h1{
+  color: red;
+}
+
+.navbar {
+  /* Set the color of the text to white */
+  color: white;
+}
